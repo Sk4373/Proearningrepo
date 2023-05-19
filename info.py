@@ -16,8 +16,8 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ['API_ID','25804684'])
 API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
-HOW_TO_VERIFY = environ.get['HOW_TO_VERIFY
-']
+
+
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
