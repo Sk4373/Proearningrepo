@@ -48,7 +48,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', "")
 
 # Others
-IS_VERIFY = bool(environ.get('IS_VERIFY', True))
+IS_VERIFY = bool(environ.get('IS_VERIFY', False))
 VERIFY2_URL = environ.get('VERIFY2_URL', "mdiskshortner.link")
 VERIFY2_API = environ.get('VERIFY2_API', "3bda091332c25a4ea2c3d46e572d4ceefe5aff1b")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Tnshort.net')
